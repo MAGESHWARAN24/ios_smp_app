@@ -1,0 +1,68 @@
+﻿# ==========================
+# Visual Studio
+# ==========================
+.vs/
+.vscode/
+.idea/
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# User files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.slnLaunch.user
+
+# ==========================
+# ASP.NET Core
+# ==========================
+
+# Ignore all appsettings except template
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.*.json
+
+# Keep template file
+!**/appsettings.example.json
+
+**/wwwroot/
+
+# ==========================
+# Environment files
+# ==========================
+
+.env
+.env.*
+**/.env
+**/.env.*
+
+# ==========================
+# Logs
+# ==========================
+
+logs/
+*.log
+
+# ==========================
+# Node
+# ==========================
+
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-error.log*
+android
+ios
+# ==========================
+# OS
+# ==========================
+
+.DS_Store
+Thumbs.db

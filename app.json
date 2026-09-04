@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Shree Maruthi Printers",
+    "slug": "zencyrus-smp-app",
+    "scheme": "zencyrus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zencyrus.smp.app",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "upi",
+          "tez",
+          "phonepe",
+          "paytmmp",
+          "credpay",
+          "bhim",
+          "upi",
+          "tez",
+          "phonepe",
+          "paytmmp",
+          "credpay",
+          "bhim"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.zencyrus.smp.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 512,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "./plugins/withUpiQueries.ts"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "349f9600-7d68-41eb-846e-7cb00aaad604"
+      }
+    }
+  }
+}
