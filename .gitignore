@@ -36,10 +36,10 @@ Release/
 # Environment files
 # ==========================
 
-.env
-.env.*
-**/.env
-**/.env.*
+# .env
+# .env.*
+# **/.env
+# **/.env.*
 
 # ==========================
 # Logs
